@@ -1,0 +1,35 @@
+12:27:00.671 [main] INFO  factory.BaseClass - ----Launching Coursera website-----
+12:27:01.033 [main] INFO  factory.BaseClass - ------Search for web development courses------
+12:27:35.748 [main] INFO  factory.BaseClass - ----Clearing the Searchbox----
+12:28:03.048 [main] INFO  factory.BaseClass - ----Launching Coursera website-----
+12:28:04.188 [main] INFO  factory.BaseClass - ------Search for web development courses------
+12:28:13.093 [main] INFO  factory.BaseClass - -----Navigating to Cousera Homepage-----
+12:28:13.365 [main] INFO  factory.BaseClass - -----Click ForEnterprise section-----
+12:28:36.585 [main] INFO  factory.BaseClass - ----Launching Coursera website-----
+12:28:37.024 [main] INFO  factory.BaseClass - ------Search for web development courses------
+12:28:54.524 [main] INFO  factory.BaseClass - ----Clearing the Searchbox----
+12:29:28.025 [main] INFO  factory.BaseClass - ----Clearing the Searchbox----
+12:29:41.138 [main] INFO  factory.BaseClass - -----Navigating to Cousera Homepage-----
+12:29:41.397 [main] INFO  factory.BaseClass - -----Click ForEnterprise section-----
+12:30:16.795 [main] INFO  factory.BaseClass - -----Navigating to Cousera Homepage-----
+12:30:17.069 [main] INFO  factory.BaseClass - -----Click ForEnterprise section-----
+14:31:03.438 [main] INFO  factory.BaseClass - ----Launching Coursera website-----
+14:31:03.882 [main] INFO  factory.BaseClass - ------Search for web development courses------
+14:31:48.678 [main] INFO  factory.BaseClass - ----Clearing the Searchbox----
+14:32:31.128 [main] INFO  factory.BaseClass - -----Navigating to Cousera Homepage-----
+14:32:31.338 [main] INFO  factory.BaseClass - -----Click ForEnterprise section-----
+14:39:56.993 [main] INFO  factory.BaseClass - ----Launching Coursera website-----
+14:39:57.856 [main] INFO  factory.BaseClass - ------Search for web development courses------
+14:41:35.562 [main] INFO  factory.BaseClass - ----Filter the course by English Language----
+14:41:36.318 [main] INFO  factory.BaseClass - ----Filter the course by Beginners Level----
+14:41:36.795 [main] INFO  factory.BaseClass - Course One Details are displayed
+14:42:23.034 [main] INFO  factory.BaseClass - Course Two Details are displayed
+14:43:55.439 [main] INFO  factory.BaseClass - ----Clearing the Searchbox----
+14:44:00.411 [main] INFO  factory.BaseClass - ----User serach for langugae learning----
+14:44:25.311 [main] INFO  factory.BaseClass - -----Extract all the Languages----
+14:44:29.892 [main] INFO  factory.BaseClass - -----Extract all the Levels-----
+14:44:30.595 [main] INFO  factory.BaseClass - -----Languages and Levels are Displayed------
+14:45:26.029 [main] INFO  factory.BaseClass - -----Navigating to Cousera Homepage-----
+14:45:26.381 [main] INFO  factory.BaseClass - -----Click ForEnterprise section-----
+14:48:18.384 [main] INFO  factory.BaseClass - -----Fill the details in the form-----
+14:48:22.263 [main] INFO  factory.BaseClass - -----Error message should be displayed-----
