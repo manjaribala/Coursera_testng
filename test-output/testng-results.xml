@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="30" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T18:10:15 IST" name="Suite" finished-at="2024-02-29T18:14:11 IST" duration-ms="236009">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002_LanguageLearning.navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@49e53c76]" name="navigatingToLanguageLearning" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_002_LanguageLearning.prntTotalLang()[pri:2, instance:testCases.TC_002_LanguageLearning@49e53c76]" name="prntTotalLang" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_002_LanguageLearning.prntTotalLevels()[pri:3, instance:testCases.TC_002_LanguageLearning@49e53c76]" name="prntTotalLevels" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_002_LanguageLearning.navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@62379589]" name="navigatingToLanguageLearning" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_002_LanguageLearning.prntTotalLang()[pri:2, instance:testCases.TC_002_LanguageLearning@62379589]" name="prntTotalLang" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_002_LanguageLearning.prntTotalLevels()[pri:3, instance:testCases.TC_002_LanguageLearning@62379589]" name="prntTotalLevels" class="testCases.TC_002_LanguageLearning"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001_WebDevelopment.navigatingToWebDevelopment()[pri:1, instance:testCases.TC_001_WebDevelopment@293a5bf6]" name="navigatingToWebDevelopment" class="testCases.TC_001_WebDevelopment"/>
+        <method signature="TC_002_LanguageLearning.navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@49e53c76]" name="navigatingToLanguageLearning" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_003_CourseForCampus.navigatingToForEnterprise()[pri:1, instance:testCases.TC_003_CourseForCampus@351d00c0]" name="navigatingToForEnterprise" class="testCases.TC_003_CourseForCampus"/>
+        <method signature="TC_001_WebDevelopment.navigatingToWebDevelopment()[pri:1, instance:testCases.TC_001_WebDevelopment@3754a4bf]" name="navigatingToWebDevelopment" class="testCases.TC_001_WebDevelopment"/>
+        <method signature="TC_002_LanguageLearning.navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@62379589]" name="navigatingToLanguageLearning" class="testCases.TC_002_LanguageLearning"/>
+        <method signature="TC_003_CourseForCampus.navigatingToForEnterprise()[pri:1, instance:testCases.TC_003_CourseForCampus@4afcd809]" name="navigatingToForEnterprise" class="testCases.TC_003_CourseForCampus"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-29T18:10:15 IST" name="Test" finished-at="2024-02-29T18:12:12 IST" duration-ms="117109">
+      <class name="testCases.TC_001_WebDevelopment">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:10:16 IST" name="setup" finished-at="2024-02-29T18:10:36 IST" duration-ms="20343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatingToWebDevelopment()[pri:1, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:10:36 IST" name="navigatingToWebDevelopment" finished-at="2024-02-29T18:10:53 IST" duration-ms="16692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToWebDevelopment -->
+        <test-method signature="filterLanguage()[pri:2, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:10:54 IST" name="filterLanguage" finished-at="2024-02-29T18:10:56 IST" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLanguage -->
+        <test-method signature="filterLevel()[pri:3, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:10:57 IST" name="filterLevel" finished-at="2024-02-29T18:10:57 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLevel -->
+        <test-method signature="courseOneDetails()[pri:4, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:10:58 IST" name="courseOneDetails" finished-at="2024-02-29T18:11:11 IST" duration-ms="13373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseOneDetails -->
+        <test-method signature="courseTwoDetails()[pri:5, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:11:12 IST" name="courseTwoDetails" finished-at="2024-02-29T18:11:22 IST" duration-ms="10188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseTwoDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_WebDevelopment@293a5bf6]" started-at="2024-02-29T18:12:11 IST" name="tearDown" finished-at="2024-02-29T18:12:12 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_WebDevelopment -->
+      <class name="testCases.TC_003_CourseForCampus">
+        <test-method signature="navigatingToForEnterprise()[pri:1, instance:testCases.TC_003_CourseForCampus@351d00c0]" started-at="2024-02-29T18:11:37 IST" name="navigatingToForEnterprise" finished-at="2024-02-29T18:11:53 IST" duration-ms="15623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToForEnterprise -->
+        <test-method signature="navigateToForCampus()[pri:2, instance:testCases.TC_003_CourseForCampus@351d00c0]" started-at="2024-02-29T18:11:53 IST" name="navigateToForCampus" finished-at="2024-02-29T18:12:01 IST" duration-ms="7836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForCampus -->
+        <test-method signature="submitForm()[pri:3, instance:testCases.TC_003_CourseForCampus@351d00c0]" started-at="2024-02-29T18:12:02 IST" name="submitForm" finished-at="2024-02-29T18:12:10 IST" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+      </class> <!-- testCases.TC_003_CourseForCampus -->
+      <class name="testCases.TC_002_LanguageLearning">
+        <test-method signature="navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@49e53c76]" started-at="2024-02-29T18:11:23 IST" name="navigatingToLanguageLearning" finished-at="2024-02-29T18:11:29 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToLanguageLearning -->
+        <test-method signature="prntTotalLang()[pri:2, instance:testCases.TC_002_LanguageLearning@49e53c76]" started-at="2024-02-29T18:11:29 IST" name="prntTotalLang" finished-at="2024-02-29T18:11:36 IST" duration-ms="6600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntTotalLang -->
+        <test-method signature="prntTotalLevels()[pri:3, instance:testCases.TC_002_LanguageLearning@49e53c76]" started-at="2024-02-29T18:11:36 IST" name="prntTotalLevels" finished-at="2024-02-29T18:11:37 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntTotalLevels -->
+      </class> <!-- testCases.TC_002_LanguageLearning -->
+    </test> <!-- Test -->
+    <test started-at="2024-02-29T18:12:22 IST" name="Test2" finished-at="2024-02-29T18:14:11 IST" duration-ms="108950">
+      <class name="testCases.TC_001_WebDevelopment">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:12:22 IST" name="setup" finished-at="2024-02-29T18:12:46 IST" duration-ms="23940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatingToWebDevelopment()[pri:1, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:12:46 IST" name="navigatingToWebDevelopment" finished-at="2024-02-29T18:12:53 IST" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToWebDevelopment -->
+        <test-method signature="filterLanguage()[pri:2, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:12:54 IST" name="filterLanguage" finished-at="2024-02-29T18:12:55 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLanguage -->
+        <test-method signature="filterLevel()[pri:3, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:12:57 IST" name="filterLevel" finished-at="2024-02-29T18:12:58 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLevel -->
+        <test-method signature="courseOneDetails()[pri:4, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:12:58 IST" name="courseOneDetails" finished-at="2024-02-29T18:13:08 IST" duration-ms="9877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseOneDetails -->
+        <test-method signature="courseTwoDetails()[pri:5, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:13:08 IST" name="courseTwoDetails" finished-at="2024-02-29T18:13:17 IST" duration-ms="8201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseTwoDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_WebDevelopment@3754a4bf]" started-at="2024-02-29T18:14:09 IST" name="tearDown" finished-at="2024-02-29T18:14:11 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_WebDevelopment -->
+      <class name="testCases.TC_003_CourseForCampus">
+        <test-method signature="navigatingToForEnterprise()[pri:1, instance:testCases.TC_003_CourseForCampus@4afcd809]" started-at="2024-02-29T18:13:32 IST" name="navigatingToForEnterprise" finished-at="2024-02-29T18:13:52 IST" duration-ms="20091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToForEnterprise -->
+        <test-method signature="navigateToForCampus()[pri:2, instance:testCases.TC_003_CourseForCampus@4afcd809]" started-at="2024-02-29T18:13:52 IST" name="navigateToForCampus" finished-at="2024-02-29T18:14:02 IST" duration-ms="9114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForCampus -->
+        <test-method signature="submitForm()[pri:3, instance:testCases.TC_003_CourseForCampus@4afcd809]" started-at="2024-02-29T18:14:03 IST" name="submitForm" finished-at="2024-02-29T18:14:09 IST" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+      </class> <!-- testCases.TC_003_CourseForCampus -->
+      <class name="testCases.TC_002_LanguageLearning">
+        <test-method signature="navigatingToLanguageLearning()[pri:1, instance:testCases.TC_002_LanguageLearning@62379589]" started-at="2024-02-29T18:13:17 IST" name="navigatingToLanguageLearning" finished-at="2024-02-29T18:13:23 IST" duration-ms="5865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToLanguageLearning -->
+        <test-method signature="prntTotalLang()[pri:2, instance:testCases.TC_002_LanguageLearning@62379589]" started-at="2024-02-29T18:13:24 IST" name="prntTotalLang" finished-at="2024-02-29T18:13:30 IST" duration-ms="6271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntTotalLang -->
+        <test-method signature="prntTotalLevels()[pri:3, instance:testCases.TC_002_LanguageLearning@62379589]" started-at="2024-02-29T18:13:30 IST" name="prntTotalLevels" finished-at="2024-02-29T18:13:31 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntTotalLevels -->
+      </class> <!-- testCases.TC_002_LanguageLearning -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
